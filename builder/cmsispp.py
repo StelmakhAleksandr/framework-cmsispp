@@ -2,7 +2,9 @@ Import("env")
 import os
 import shutil
 
-framework_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+home_dir = os.path.expanduser("~")
+pio_packages_dir = os.path.join(home_dir, ".platformio", "packages")
+framework_path = os.path.join(pio_packages_dir, "framework-cmsispp")
 
 if not framework_path:
     env.Exit("❌ Error: framework-cmsispp не знайдено!")
