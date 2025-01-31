@@ -1,0 +1,20 @@
+{
+    "name": "framework-stmcmsispp",
+    "version": "0.0",
+    "description": "Lightweight CMSIS c++ framework for STM32 development",
+    "keywords": [
+        "framework",
+        "STM32",
+        "CMSIS"
+    ],
+    "homepage": "https://github.com/StelmakhAleksandr/framework-cmsispp",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/StelmakhAleksandr/framework-cmsispp.git"
+    },
+    "license": "MIT",
+    "system": [
+        "linux",
+        "windows"
+    ]
+}
