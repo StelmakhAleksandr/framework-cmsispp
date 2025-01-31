@@ -2,8 +2,7 @@ Import("env")
 import os
 import shutil
 
-# Отримуємо шлях до фреймворку
-framework_path = env.PioPlatform().get_package_dir("framework-cmsispp")
+framework_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 if not framework_path:
     env.Exit("❌ Error: framework-cmsispp не знайдено!")
