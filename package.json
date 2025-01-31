@@ -1,6 +1,6 @@
 {
-    "name": "framework-stmcmsispp",
-    "version": "0.0",
+    "name": "framework-cmsispp",
+    "version": "0.1",
     "description": "Lightweight CMSIS c++ framework for STM32 development",
     "keywords": [
         "framework",
